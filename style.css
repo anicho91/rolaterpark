@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    background-image: url('pond.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -1200px;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.headerdiv {
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.text {
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    z-index: 10;
+}
+
+.headertext {
+    
+    margin-top: 15%;
+    
+}
+
+.header1 {
+    font-size: 50px;
+    
+}
+
+.info {
+    font-size: 25px;
+}
+
+.header2 {
+    font-size: 10px;
+}
+
+
+.icon-bar {
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  .icon-bar a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+
+  
